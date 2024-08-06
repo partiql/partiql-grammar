@@ -12,13 +12,14 @@ This package includes [PartiQL](https://partiql.org/) grammar for tree-sitter to
 - Node.js and NPM
 
 ### Installation
-#### Step-by-Step Installation**:
-1. Generate the PartiQL parser and bindings with `tree-sitter-cli`:
+#### Step-by-Step Installation:
+1. Ensure that the current path is within the `tree-sitter-partiql` package.
+2. Generate the PartiQL parser and bindings with `tree-sitter-cli`:
     ```bash
     tree-sitter generate
     ```
 
-2. Install the dependencies via npm:
+3. Install the dependencies via npm:
     ```bash
     npm install
     ```
