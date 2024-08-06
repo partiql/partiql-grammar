@@ -13,13 +13,14 @@ This package includes [PartiQL](https://partiql.org/) grammar for tree-sitter to
 
 ### Installation
 #### Step-by-Step Installation**:
-1. Install the dependencies via npm:
-    ```bash
-    npm install
-    ```
-2. Generate the PartiQL parser:
+1. Generate the PartiQL parser and bindings with `tree-sitter-cli`:
     ```bash
     tree-sitter generate
+    ```
+
+2. Install the dependencies via npm:
+    ```bash
+    npm install
     ```
 
 ## Package Structure
