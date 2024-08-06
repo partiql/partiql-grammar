@@ -36,3 +36,6 @@ dist/
 *.wasm
 *.obj
 *.o
+
+# Genarated sources
+src/
