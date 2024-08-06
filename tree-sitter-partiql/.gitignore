@@ -38,4 +38,11 @@ dist/
 *.o
 
 # Genarated sources
-src/
+src
+bindings
+binding.gyp
+Cargo.toml
+Makefile
+Package.swift
+pyproject.toml
+setup.py
